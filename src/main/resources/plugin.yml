@@ -1,0 +1,15 @@
+name: ClearLegacy
+version: 1.0.0
+main: com.yourname.clearlegacy.ClearLegacyPlugin
+api-version: "1.20"
+author: yourname
+
+commands:
+  clearlegacy:
+    description: Toggle legacy clear mode (auto-clear containers and item frames in loaded chunks).
+    usage: /clearlegacy
+    permission: clearlegacy.use
+
+permissions:
+  clearlegacy.use:
+    default: op

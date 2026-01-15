@@ -1,0 +1,14 @@
+# 扫描周期（tick）。20 = 1 秒
+scan-interval-ticks: 20
+
+# 扫描半径（区块）。-1 表示使用服务器 view-distance
+chunk-radius: -1
+
+# 是否清空展示框（ItemFrame / GlowItemFrame）
+clear-item-frames: true
+
+# 是否清空“带库存的实体”（如箱子矿车/漏斗矿车等 InventoryHolder）
+clear-inventory-holder-entities: true
+
+# 是否在控制台记录每次清空统计
+log-stats: true
