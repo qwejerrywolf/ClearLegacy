@@ -1,4 +1,4 @@
-package com.yourname.clearlegacy;
+package com.jerry.clearlegacy;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Chunk;
@@ -180,3 +180,4 @@ public class ClearLegacyPlugin extends JavaPlugin {
         return true;
     }
 }
+
